@@ -1,0 +1,19 @@
+.header {
+    border-bottom: 1px solid black;
+}
+.headerWrapper {
+    height: 8rem;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+@media (min-width: 1300px) {
+    .headerWrapper {
+        place-items: start;
+        align-items: center;
+        padding-left: 6rem;
+    }
+}

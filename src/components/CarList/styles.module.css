@@ -1,0 +1,9 @@
+@media (min-width: 1300px) {
+    .listWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 85%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+}

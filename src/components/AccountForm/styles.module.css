@@ -1,0 +1,15 @@
+.fromWrapper {
+    padding: 4rem 0;
+    width: 80%;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+.fromWrapper h1 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}

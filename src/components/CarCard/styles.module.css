@@ -1,0 +1,44 @@
+.carCardWrapper {
+    width: 90%;
+    max-width: 420px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+.carCardImage {
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+}
+.deleteIconWrapper {
+    position: absolute;
+    width: 2.2rem;
+    height: 2.2rem;
+    top: 1.2rem;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F46464;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+.deleteIconWrapper:hover {
+    background-color: #ee7171;
+}
+
+.deleteIconWrapper svg {
+    color: white;
+}
+.carCardImage img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    aspect-ratio: 6/4;
+}
+.carCardName {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 1.7rem;
+}

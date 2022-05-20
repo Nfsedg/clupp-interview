@@ -1,0 +1,17 @@
+.searchInputWrapper {
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 85%;
+    max-width: 420px;
+}
+
+@media (min-width: 1300px) {
+    .searchInputWrapper {
+        width: 85%;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+}
